@@ -80,9 +80,7 @@ This project provides an API for managing inventory in warehouses. It allows war
 ### Installation and Running
 
 1. Clone the repository:
-
-   
-2.Install dependencies:
+2. Install dependencies:
 `fastapi==0.70.0
 uvicorn==0.15.0
 python-dotenv==0.19.2
@@ -96,6 +94,7 @@ MYSQL_DATABASE=inventorymanagement
 `
 4.Run the application:
 `uvicorn main:app --reload`
+
 
 
 
