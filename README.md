@@ -1,4 +1,4 @@
-# sql_WinAim
+# Employee Management System (sql)
 
 This repository contains the SQL schema and queries for a simple employee database.
 
