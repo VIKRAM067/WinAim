@@ -12,11 +12,11 @@ This repository contains the SQL schema and queries for a simple employee databa
 
 ### Create Tables
 
-The SQL commands to create the tables are in `create_tables.sql`.
+The SQL commands to create the tables are in `schema.sql`.
 
 ### Queries
 
-The SQL queries are in `queries.sql`.
+The SQL queries are in `query_1.sql` , `query_2.sql` , `query_3.sql`.
 
 1. Find all employees who have been hired in the last year.
 2. Calculate the total salary expenditure for each department.
