@@ -78,20 +78,23 @@ This project provides an API for managing inventory in warehouses. It allows war
 - MySQL
 
 ### Installation and Running
-
--Clone the repository:
--Install dependencies:
+- Clone the repository:
+- Install dependencies:
 `fastapi==0.70.0
 uvicorn==0.15.0
 python-dotenv==0.19.2
 mysql-connector-python==8.0.28
 `
--Create a .env file in the root directory with the following configuration:
+- Create a .env file in the root directory with the following configuration:
 `MYSQL_HOST=localhost
 MYSQL_USER=root
 MYSQL_PASSWORD=your_password
-MYSQL_DATABASE=inventorymanagement
-`
+MYSQL_DATABASE=inventorymanagement`
+ 
+
+-:
+-
+-
 -Run the application:
 `uvicorn main:app --reload`
 
